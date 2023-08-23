@@ -27,6 +27,13 @@ samples, guidance on mobile development, and a full API reference.
     }
 ```
 
+Commands to run on the terminal
 ```bash
 flutter pub add webview_flutter
+```
+
+Please correct the uri\
+/lib/main.dart
+```dart
+final homeUrl = Uri.parse('http://localhost:5173/');
 ```
